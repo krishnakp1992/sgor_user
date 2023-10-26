@@ -1,0 +1,3 @@
+[submodule "sgor_core"]
+	path = sgor_core
+	url = git@github.com:krishnakp1992/sgor_core.git
