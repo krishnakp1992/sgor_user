@@ -130,7 +130,7 @@ async def test():
     return {'a': datetime.datetime.now(), 'b': datetime.datetime.utcnow()}
 
 
-@app.post('/user/sportsgear/{user_rental_id}/return')
+@app.put('/user/sportsgear/{user_rental_id}/return')
 async def sports_gear_rturn(
     user_rental_id: int, current_user: User = Depends(get_current_active_user)
 ):
